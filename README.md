@@ -3,6 +3,6 @@ This repository demonstrates a graphical interface designed for handling numeric
 
 This repository serves as a preview of our graphical interface features. This preview is frontend-only, with no backend endpoints or integration.
 
-For collaborative access to the full repository, kindly make a payment of $250 to Digital Solutions Inc. using your GitHub email. Payment link: [](https://flutterwave.com/pay/xsrwsiyi3ixd).
+For collaborative access to the full repository, kindly make a payment of $250 to Digital Solutions Inc. using your GitHub email. Payment link: https://flutterwave.com/pay/xsrwsiyi3ixd.
 
 Collaborative access will be granted upon confirmation of payment.
