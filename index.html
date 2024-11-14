@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Graphicalize Demo</title>
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <!-- Include Chart.js Data Labels Plugin from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2"></script>
+    <!-- Include Google Fonts -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Graphicalize Demo</h1>
+    </header>
+    <main>
+      <form id="dataForm">
+        <div class="form-group">
+          <label for="chartTitle">Chart Title:</label>
+          <input type="text" id="chartTitle" placeholder="Enter chart title" />
+        </div>
+
+        <div class="form-group">
+          <label for="labelsInput">Enter Labels (comma-separated):</label>
+          <input
+            type="text"
+            id="labelsInput"
+            placeholder="e.g., Q1, Q2, Q3, Q4"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="dataSetCount">Number of Datasets:</label>
+          <input type="number" id="dataSetCount" min="1" value="1" required />
+        </div>
+
+        <div id="datasetsContainer">
+          <!-- Dataset input fields will be generated here -->
+        </div>
+
+        <div class="form-group">
+          <label for="chartType">Select Chart Type:</label>
+          <select id="chartType">
+            <option value="bar">Bar Chart</option>
+            <option value="line">Line Graph</option>
+            <option value="pie">Pie Chart</option>
+            <option value="doughnut">Doughnut Chart</option>
+            <option value="radar">Radar Chart</option>
+            <option value="polarArea">Polar Area Chart</option>
+            <!-- Scatter and Bubble charts require specific data formats -->
+          </select>
+        </div>
+
+        <button type="submit">Generate Chart</button>
+      </form>
+      <canvas id="myChart"></canvas>
+    </main>
+    <footer>
+      <p>&copy; 2023 Graphicalize Demo</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
