@@ -16,7 +16,6 @@ function generateDatasetInputs() {
     const label = document.createElement("label");
     label.textContent = `Enter Data for Dataset ${i} (comma-separated):`;
     label.setAttribute("for", `datasetInput${i}`);
-
     const input = document.createElement("input");
     input.type = "text";
     input.id = `datasetInput${i}`;
