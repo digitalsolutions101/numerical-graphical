@@ -6,3 +6,5 @@ This repository serves as a preview of our graphical interface features. This pr
 For collaborative access to the full repository, kindly make a payment of $250 to Digital Solutions Inc. using your GitHub email. Payment link: https://flutterwave.com/pay/xsrwsiyi3ixd.
 
 Collaborative access will be granted upon confirmation of payment.
+
+Contact digitalsolutions1011@gmail.com for further enquiries.
